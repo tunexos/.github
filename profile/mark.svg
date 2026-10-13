@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="TUNEXOS">
+  <!-- TUNEXOS mark — "Crossing X". The X of the wordmark on an ink tile:
+       cobalt "\" (the customer's goals), mint "/" (our people), and the light
+       diamond where they overlap (the product they make together).
+
+       32-unit grid. The X fills a 16 x 16 box at (8, 8), leaving an 8-unit
+       margin — the clear space is built in. Each stroke is 4 units wide
+       measured horizontally. The diamond's vertices are the exact edge
+       intersections, so no sliver of either stroke shows around it.
+
+       The tile carries its own ground, so the colours are fixed and do not flip
+       with the colour scheme. Same geometry as src/components/ui/CrossX.astro
+       and scripts/generate-icons.mjs; `tile.svg` is this drawing full-bleed.
+       Change one, change all three. -->
+  <rect width="32" height="32" rx="7" fill="#101a2f"/>
+  <path d="M8 8h4l12 16h-4Z" fill="#7daafd"/>
+  <path d="M20 8h4L12 24H8Z" fill="#5bdfb7"/>
+  <path d="M16 13.333 18 16l-2 2.667L14 16Z" fill="#f3f5f9"/>
+</svg>
